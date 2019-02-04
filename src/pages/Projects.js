@@ -4,33 +4,37 @@ import React, { Component } from 'react';
 class Project extends Component {
   render() {
     return (
-      <div style={{margin: 'auto', padding: '10px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', maxWidth: '70vw'}}>
-        <div class="card border-primary mb-3" style={{ maxWidth: "15rem", minWidth: '250px', margin: 'auto' }}>
-          <div class="card-header">Gatsby, Moqui, AWS</div>
+      <div style={{margin: 'auto', padding: '10px, 10px, 10px, 10px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', maxWidth: '90vw'}}>
+
+        <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
+          <div class="card-header">Gatsby(React.js), Moqui</div>
           <div class="card-body">
-            <h4 class="card-title">Donation Site</h4>
-            <img style={{ height: '100px', width: '100%' }} src="https://i0.wp.com/wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg?fit=2560%2C1544" alt="grey background" />
-            <p class="card-text">Developed website using Gatsby and Moqui. Hosted using AWS S3 and EC2. Used Material-UI for styling.</p>
+            <h4 class="card-title">Donation Website</h4>
+            <p class="card-text">Developed a donation page utilizing material-ui components.</p>
+            <a href="https://github.com/misunchoi/my-website-gatsby"><button type="button" class="btn btn-secondary">Github</button></a>
           </div>
         </div>
 
-        <div class="card border-primary mb-3" style={{ maxWidth: "15rem", minWidth: '250px', margin: 'auto' }}>
-          <div class="card-header">React.js, Javascript</div>
+        <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
+          <div class="card-header">React.js</div>
           <div class="card-body">
             <h4 class="card-title">TicTacToe</h4>
-            <img style={{ height: '100px', width: '100%' }} src="https://i0.wp.com/wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg?fit=2560%2C1544" alt="grey background" />
-            <p class="card-text">Classic TicTacToe game where players can choose their own emojis to play. Used CSS for styling.</p>
+            <p class="card-text">Classic TicTacToe game where users can choose an emoji to play.</p>
+            <a href="https://github.com/misunchoi/tictactoe"><button type="button" class="btn btn-secondary">Github</button></a>
           </div>
         </div>
 
-        <div class="card border-primary mb-3" style={{ maxWidth: "15rem", minWidth: '250px', margin: 'auto' }}>
-          <div class="card-header">React.js, Ruby on Rails</div>
+        <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
+          <div class="card-header">Ruby on Rails, React.js</div>
           <div class="card-body">
             <h4 class="card-title">Apartment App</h4>
-            <img style={{ height: '100px', width: '100%' }} src="https://i0.wp.com/wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg?fit=2560%2C1544" alt="grey background" />
-            <p class="card-text">Developed an apartment app where users can create, edit, and delete apartment information.</p>
+            <p class="card-text">Users can create, edit, and delete apartment information.</p>
+            <a href="https://github.com/misunchoi?utf8=%E2%9C%93&tab=repositories&q=apartment&type=&language="><button type="button" class="btn btn-secondary">Github</button></a>
           </div>
         </div>
+
+        
+
       </div>
     );
   }
