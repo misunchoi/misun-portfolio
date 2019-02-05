@@ -6,7 +6,7 @@ class Home extends Component {
       <div>
         <div class="jumbotron">
           <h1 class="display-3">Hello, world!</h1>
-          <p class="lead">I'm a web developer seeking for front-end, back-end, full-stack web development positions.</p>
+          <p class="lead">I'm a front-end web developer seeking to create interactive and user-friendly websites!</p>
           <hr class="my-4"/>
           <p>Explore the projects that I've been part of.</p>
           <p class="lead">
