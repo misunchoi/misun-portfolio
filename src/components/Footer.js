@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <div className="Footer">
-        <div style={{ height: '50px', backgroundColor: 'black', color: 'white', fontSize: '20px', margin: 'auto', justifyContent: 'center' }}>
-          <a style={{ fontSize: '20px', color: 'white' }} href="https://www.linkedin.com/in/mi-sun-choi/">LinkedIn</a> 
-          <a style={{ fontSize: '20px', color: 'white' }} href="https://github.com/misunchoi">Github</a>
+      <div className="Footer" style={{paddingTop: '20px', marginTop: '20px', alignItems: 'center', justifyContent: 'center', textAlign: 'center', height: '50px', backgroundColor: 'black', color: 'white', fontSize: '20px' }}>
+        <div style={{ height: '50px', backgroundColor: 'black', color: 'white', fontSize: '20px' }}>
+          <a style={{ color: 'white', paddingRight: '20px' }} href="https://www.linkedin.com/in/mi-sun-choi/">LinkedIn</a> <s></s>
+          <a style={{ color: 'white', paddingRight: '20px'  }} href="https://github.com/misunchoi">Github</a>
         </div>
       </div>
     );
