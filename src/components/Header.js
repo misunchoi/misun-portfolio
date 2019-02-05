@@ -4,9 +4,8 @@ class Header extends Component {
   render() {
     return (
       <div className="Header" style={{paddingBottom: '10px'}}>
-        <div style={{ height: '100px', backgroundColor: 'black', color: 'white', fontSize: '50px', margin: 'auto', justifyContent: 'center' }}> 
-          Mi Sun Choi <br/>
-          <a style={{ fontSize: '10px', color: 'white' }} href="www.linkedin.com/in/mi-sun-choi">LinkedIn</a>
+        <div style={{ height: '80px', backgroundColor: 'black', color: 'white', fontSize: '20px', margin: 'auto', justifyContent: 'center' }}> 
+          misunchoi101@gmail.com<br/>
         </div>
         <div>
           <ul class="nav nav-tabs">
