@@ -15,7 +15,7 @@ class Project extends Component {
           </div>
         </div>
 
-        <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
+        <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto', color: 'white' }}>
           <div class="card-header">React.js</div>
           <div class="card-body">
             <h4 class="card-title">TicTacToe</h4>
@@ -28,8 +28,17 @@ class Project extends Component {
           <div class="card-header">Ruby on Rails, React.js</div>
           <div class="card-body">
             <h4 class="card-title">Apartment App</h4>
-            <p class="card-text">Users can create, edit, and delete apartment information.</p>
+            <p class="card-text">Logged in users can create, edit, and delete apartment information.</p><br/>
             <a href="https://github.com/misunchoi?utf8=%E2%9C%93&tab=repositories&q=apartment&type=&language="><button type="button" class="btn btn-secondary">Github</button></a>
+          </div>
+        </div>
+
+        <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
+          <div class="card-header"> React.js</div>
+          <div class="card-body">
+            <h4 class="card-title">Portfolio Website</h4>
+            <p class="card-text">Built portfolio website using React.js and Bootstrap.</p><br/>
+            <a href="https://github.com/misunchoi/misun-portfolio"><button type="button" class="btn btn-secondary">Github</button></a>
           </div>
         </div>
 
