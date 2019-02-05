@@ -7,10 +7,10 @@ class Project extends Component {
       <div style={{margin: 'auto', padding: '10px, 10px, 10px, 10px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', maxWidth: '90vw'}}>
 
         <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
-          <div class="card-header">Gatsby(React.js), Moqui</div>
+          <div class="card-header">Gatsby, Moqui</div>
           <div class="card-body">
             <h4 class="card-title">Donation Website</h4>
-            <p class="card-text">Developed a donation page utilizing material-ui components.</p>
+            <p class="card-text">Developed a donation page utilizing material-ui components. Visit the website <a style={{ color: 'white' }} href="http://mkdonation.com.s3-website-us-east-1.amazonaws.com/">here.</a></p>
             <a href="https://github.com/misunchoi/my-website-gatsby"><button type="button" class="btn btn-secondary">Github</button></a>
           </div>
         </div>
@@ -19,7 +19,7 @@ class Project extends Component {
           <div class="card-header">React.js</div>
           <div class="card-body">
             <h4 class="card-title">TicTacToe</h4>
-            <p class="card-text">Classic TicTacToe game where users can choose an emoji to play.</p>
+            <p class="card-text">Classic TicTacToe game where users can choose an emoji to play. Click <a style={{ color: 'white' }} href="/tictactoe">here</a> to play the game.</p>
             <a href="https://github.com/misunchoi/tictactoe"><button type="button" class="btn btn-secondary">Github</button></a>
           </div>
         </div>

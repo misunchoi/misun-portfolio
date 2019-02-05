@@ -26,6 +26,7 @@ class Resume extends Component {
         <div style={{ backgroundColor: '#f2f2f2' }}>
           <h5>Languages</h5>
           <p>JavaScript, HTML, CSS, SQL, Ruby</p>
+          <p>Korean - Fluent</p>
 
           <h5>Framework/Libraries</h5>
           <p>Ruby on Rails, Bootstrap, React, Gatsby, Moqui</p>
