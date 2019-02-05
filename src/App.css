@@ -1,3 +1,91 @@
 .App {
   text-align: center;
 }
+
+.square {
+  height: 150px;
+  width: 150px;
+  color: black;
+  font-size: 100px;
+  background-color: transparent;
+  border: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.the-board {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 30px;
+  height: 450px;
+  width: 450px;
+}
+
+.Board-container {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.resetButton {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  padding-top: 20px;
+}
+
+.reset {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: transparent;
+  color: black;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  max-width: 300px;
+  margin: auto;
+  color: black;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.player1 {
+  display: flex;
+  float: left;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  min-width: 150px;
+  color: black;
+  font-size: 20px;
+}
+
+.player2 {
+  display: flex;
+  float: right;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  min-width: 150px;
+  color: black;
+  font-size: 20px;
+}
+
+.Emoji-Container-1 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.Emoji-Container-2 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-left: 20px;
+  font-size: 30px;
+}
