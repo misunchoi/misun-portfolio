@@ -95,35 +95,33 @@ class TicTacToe extends Component {
           <div className = "status">{status}</div>
         </div>
 
-          <div className="the-board" >
-          <div className="Emoji-Container-1">
-            
+        <div className="the-board" >
+          <div className="Emoji-Container-1">  
             <div className="Emojis" onClick={this.emojiClick1.bind(this, 0)}> 😎  </div>
             <div className="Emojis" onClick={this.emojiClick1.bind(this, 1)}> 🐶  </div>
             <div className="Emojis" onClick={this.emojiClick1.bind(this, 2)}> 🐻  </div>
           </div>
-            <div className="board-row">
-              {this.renderSquare(0)}
-              {this.renderSquare(1)}
-              {this.renderSquare(2)}
-            </div>
-            <div className="board-row">
-              {this.renderSquare(3)}
-              {this.renderSquare(4)}
-              {this.renderSquare(5)}
-            </div>
-            <div className="board-row">
-              {this.renderSquare(6)}
-              {this.renderSquare(7)}
-              {this.renderSquare(8)}
-            </div>
-            <div className="Emoji-Container-2"> 
-              
-              <div className="Emojis" onClick={this.emojiClick2.bind(this, 3)}>  😀  </div>
-              <div className="Emojis" onClick={this.emojiClick2.bind(this, 4)}> 🐱  </div>
-              <div className="Emojis" onClick={this.emojiClick2.bind(this, 5)}> 🐼  </div>
-            </div>
-          </div><br/>
+          <div className="board-row">
+            {this.renderSquare(0)}
+            {this.renderSquare(1)}
+            {this.renderSquare(2)}
+          </div>
+          <div className="board-row">
+            {this.renderSquare(3)}
+            {this.renderSquare(4)}
+            {this.renderSquare(5)}
+          </div>
+          <div className="board-row">
+            {this.renderSquare(6)}
+            {this.renderSquare(7)}
+            {this.renderSquare(8)}
+          </div>
+          <div className="Emoji-Container-2"> 
+            <div className="Emojis" onClick={this.emojiClick2.bind(this, 3)}>  😀  </div>
+            <div className="Emojis" onClick={this.emojiClick2.bind(this, 4)}> 🐱  </div>
+            <div className="Emojis" onClick={this.emojiClick2.bind(this, 5)}> 🐼  </div>
+          </div>
+        </div><br/>
         <div className = "resetButton">
           <button className= "reset" onClick={this.resetFunc}>Reset</button>
         </div>
