@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import '../App.css';
 
 
 class Project extends Component {
   render() {
     return (
-      <div style={{margin: 'auto', padding: '10px, 10px, 10px, 10px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', maxWidth: '90vw'}}>
+      <div className="site-content" style={{margin: 'auto', padding: '10px, 10px, 10px, 10px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', maxWidth: '90vw'}}>
 
         <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
           <div class="card-header">Gatsby, Moqui</div>

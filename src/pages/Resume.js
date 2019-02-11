@@ -1,4 +1,11 @@
 import React, { Component } from 'react';
+import '../App.css';
+
+const resume = {
+  display: 'flex',
+  maxWidth: '70vw', 
+  margin: 'auto'
+}
 
 class Resume extends Component {
   render() {
