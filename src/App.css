@@ -109,7 +109,7 @@ p {
 .site-content {
   flex-grow: 1;
   margin: auto;
-  max-width: 960px;
+  max-width: 90vw;
 }
 
 .footer {

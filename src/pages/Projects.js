@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-
 class Project extends Component {
   render() {
     return (
-      <div className="site-content" style={{margin: 'auto', padding: '10px, 10px, 10px, 10px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', maxWidth: '90vw'}}>
+      <div style={{margin: 'auto', padding: '10px, 10px, 10px, 10px', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', maxWidth: '100vw'}}>
 
         <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
           <div class="card-header">Gatsby, Moqui</div>
@@ -42,6 +41,8 @@ class Project extends Component {
             <a href="https://github.com/misunchoi/misun-portfolio"><button type="button" class="btn btn-secondary">Github</button></a>
           </div>
         </div>
+
+        
 
         
 
