@@ -20,7 +20,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div className="Header" style={{paddingBottom: '10px' }}>
+      <div className="Header" style={{ marginBottom: '30px' }}>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <a class="navbar-brand" href="/">Mi Sun Choi</a>
