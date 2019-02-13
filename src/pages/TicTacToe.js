@@ -77,7 +77,7 @@ class TicTacToe extends Component {
       status = 'Winner: ' + winner;
     } else if (!this.state.squares.includes(null)) {
           status = "PLEASE TRY AGAIN!";
-    } else if (this.state.player1 == '' || this.state.player2 == '') {
+    } else if (this.state.player1 === '' || this.state.player2 === '') {
       status = 'Please choose your emoji'
     } else {
       status = 'Next: ' + (this.state.xIsNext ? this.state.player1 : this.state.player2)
