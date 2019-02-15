@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
+import Grow from '@material-ui/core/Grow';
+
 
 const style = {
   display: 'flex',
@@ -17,6 +19,10 @@ class Home extends Component {
   render() {
     return (
       <div style={{style}} className="site-content">
+      <Grow
+        in='true'
+        {...(true ? { timeout: 1000 } : {})}
+        >
         <div class="jumbotron">
           <h1 class="display-3">Hello, world!</h1>
           <p class="lead">I'm a fullstack web developer seeking to create interactive and user-friendly websites!</p>
@@ -34,7 +40,7 @@ class Home extends Component {
             <a class="btn btn-primary btn-lg" href="/projects" role="button">Go to projects</a>
           </p>
         </div>
-
+      </Grow>
       </div>
     );
   }
