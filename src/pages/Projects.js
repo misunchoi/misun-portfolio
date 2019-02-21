@@ -78,8 +78,8 @@ class Project extends Component {
             <div class="card-header"> Gatsby <img style={{width: '13px', height: '13px'}} src='https://www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png' alt='gatsby'/>, Moqui <img style={{width: '13px', height: '13px'}} src='https://avatars3.githubusercontent.com/u/8334323?s=400&v=4' alt='moqui'/></div>
             <div class="card-body">
               <h4 class="card-title">GND Website</h4>
-              <p class="card-text">Created the layout, header, footer, and Start Serving page. Implemented AWS Simple Email Service (SES) to send email to users.</p><br/><br/>
-              <a href="http://gnd-website.s3-website-us-east-1.amazonaws.com/startserving"><button type="button" class="btn btn-secondary">Github</button></a>
+              <p class="card-text">Created the layout, header, footer, and Start Serving page. Implemented AWS Simple Email Service (SES). Visit the website <a style={{ color: 'white' }} href="http://gnd-website.s3-website-us-east-1.amazonaws.com/startserving">here.</a></p>
+              <a href="https://github.com/tfe-gnd-project/GND-website"><button type="button" class="btn btn-secondary">Github</button></a>
             </div>
           </div>
         </Grow>
