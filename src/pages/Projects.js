@@ -68,6 +68,22 @@ class Project extends Component {
           </div>
         </Grow>
 
+
+        <Grow
+          in='true'
+          style={{ transformOrigin: '0 0 0' }}
+          {...(true ? { timeout: 2500 } : {})}
+        >
+          <div class="card text-white bg-primary mb-3" style={{ maxWidth: '20rem', margin: 'auto'}}>
+            <div class="card-header"> Gatsby <img style={{width: '13px', height: '13px'}} src='https://www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png' alt='gatsby'/>, Moqui <img style={{width: '13px', height: '13px'}} src='https://avatars3.githubusercontent.com/u/8334323?s=400&v=4' alt='moqui'/>, AWS(SES) <FaReact/></div>
+            <div class="card-body">
+              <h4 class="card-title">GND Website</h4>
+              <p class="card-text">Developed a website with form validations using Formik & Yup and implemented AWS Simple Email Service (SES) to send email once user submits information. Project done with pair programming. I was responsible for the header, footer, and start serving page.</p><br/><br/>
+              <a href="http://gnd-website.s3-website-us-east-1.amazonaws.com/startserving"><button type="button" class="btn btn-secondary">Github</button></a>
+            </div>
+          </div>
+        </Grow>
+
         
 
         
