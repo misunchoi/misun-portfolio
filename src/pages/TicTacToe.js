@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../assets/TicTacToe.css';
 
 
 class TicTacToe extends Component {
