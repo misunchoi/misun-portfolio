@@ -1,29 +1,17 @@
 import React, { Component } from 'react';
-import '../App.css';
-import Grow from '@material-ui/core/Grow';
+import '../assets/Home.css';
 
-
-const style = {
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center'
-}
-
-const icons = {
-  maxHeight: '25px',
-  margin: '5px'
-}
 
 class Home extends Component {
   render() {
     return (
-      <div style={{style}} className="site-content">
-      <Grow
-        in='true'
-        {...(true ? { timeout: 1000 } : {})}
-        >
-        <div class="jumbotron">
+      <div className='homesite'>
+        <h4>Welcome to my website!</h4>
+        <div className='misun'/>
+        <p className='description'>I'm a fullstack web developer seeking to create interactive and user-friendly websites! <br/>Check out the projects I've been working on so far.</p>
+        <a href='/projects'><button type="button" class="btn btn-primary">Go to Projects</button></a>
+
+        {/* <div class="jumbotron">
           <h1 class="display-3">Hello, world!</h1>
           <p class="lead">I'm a fullstack web developer seeking to create interactive and user-friendly websites!</p>
           <hr class="my-4"/>
@@ -39,8 +27,7 @@ class Home extends Component {
           <p class="lead">
             <a class="btn btn-primary btn-lg" href="/projects" role="button">Go to projects</a>
           </p>
-        </div>
-      </Grow>
+        </div> */}
       </div>
     );
   }
