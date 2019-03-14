@@ -20,13 +20,7 @@ class Contact extends Component {
           in='true'
           {...(true ? { timeout: 1000 } : {})}
         >
-          <FaRegEnvelope style={{fontSize: '30px'}} />
-        </Grow>
-        <Grow
-          in='true'
-          {...(true ? { timeout: 1000 } : {})}
-        >
-          <p style={{fontSize: '20px'}}>misunchoi101@gmail.com</p>
+          <p style={{fontSize: '20px'}}><FaRegEnvelope style={{fontSize: '30px'}} /> misunchoi101@gmail.com</p>
         </Grow>
       </div>
     );
