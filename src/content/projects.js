@@ -9,8 +9,8 @@ const projects = [
   {
     header: "Gatsby, Moqui",
     title: "GND Website",
-    text: "Created the layout, New Here and Start Serving page. Implemented AWS Simple Email Service (SES). ",
-    link: "http://gnd-website.s3-website-us-east-1.amazonaws.com/startserving/",
+    text: "Created the layout, New Here, Start Serving, & Events page. Implemented AWS Simple Email Service (SES). ",
+    link: "http://gnd-website.s3-website-us-east-1.amazonaws.com/newhere",
     github: "https://github.com/tfe-gnd-project/GND-website",
   },
   {
