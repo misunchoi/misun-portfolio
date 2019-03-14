@@ -1,17 +1,17 @@
 const projects = [
   {
     header: "Gatsby, Moqui",
-    title: "Donation Website",
-    text: "Used Material-UI, Yup, and Formik for form validation. Moqui serves as the backend for the website. ",
-    link: "http://mkdonation.com.s3-website-us-east-1.amazonaws.com/",
-    github: "https://github.com/misunchoi/my-website-gatsby",
-  },
-  {
-    header: "Gatsby, Moqui",
     title: "GND Website",
     text: "Created the layout, New Here, Start Serving, & Events page. Implemented AWS Simple Email Service (SES). ",
     link: "http://gnd-website.s3-website-us-east-1.amazonaws.com/newhere",
     github: "https://github.com/tfe-gnd-project/GND-website",
+  },
+  {
+    header: "Gatsby, Moqui",
+    title: "Donation Website",
+    text: "Used Material-UI, Yup, and Formik for form validation. Moqui serves as the backend for the website. ",
+    link: "http://mkdonation.com.s3-website-us-east-1.amazonaws.com/",
+    github: "https://github.com/misunchoi/my-website-gatsby",
   },
   {
     header: "Ruby on Rails, React.js",
