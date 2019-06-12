@@ -1,0 +1,25 @@
+p {
+  color: dimgrey;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: white;
+  text-align: center
+}
+
+.site-content {
+  flex-grow: 1;
+  margin: auto;
+  max-width: 90vw;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
